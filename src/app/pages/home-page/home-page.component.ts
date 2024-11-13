@@ -4,11 +4,12 @@ import { HeroBannerComponent } from "../../components/hero-banner/hero-banner.co
 import { AboutContentComponent } from "../../components/about-content/about-content.component";
 import { AboutHimComponent } from "../../components/about-him/about-him.component";
 import { AcordeonComponent } from "../../components/acordeon/acordeon.component";
+import { FooterComponent } from "../../components/footer/footer.component";
 
 @Component({
   selector: 'app-home-page',
   standalone: true,
-  imports: [HeaderBarComponent, HeroBannerComponent, AboutContentComponent, AboutHimComponent, AcordeonComponent],
+  imports: [HeaderBarComponent, HeroBannerComponent, AboutContentComponent, AboutHimComponent, AcordeonComponent, FooterComponent],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'
 })
