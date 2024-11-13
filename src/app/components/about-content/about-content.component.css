@@ -1,0 +1,78 @@
+#sobreConteudo {
+    width: 100%;
+    min-height: 60vh;
+    background: url("https://i.imgur.com/0RNF0V5.jpeg") #000000dc;
+
+    /* background-color: #0d0d0d; */
+}
+
+.textosSobre {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.tituloSobre {
+    width: 300px;
+}
+
+.tituloSobre h2 {
+    font-family: Bebas Neue;font-size: 92px;font-weight: 400;line-height: 92px;text-align: left; color: white;
+}
+
+.tituloSobre h2 span {
+    color: #6c757d;
+}
+
+.textoP {
+    width: 747px;
+    height: auto;
+    color: white;
+
+    background-color: #0000009d;
+    padding: 2em;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+}
+
+.textoP p {
+    font-family: Montserrat;font-size: 21px;font-weight: 300;line-height: 31.5px;letter-spacing: -0.04em;text-align: justify;
+}
+
+.video {
+    padding-top: 5em;
+    padding-bottom: 20em;
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .textosSobre {
+        flex-direction: column;
+    }
+
+    .tituloSobre {
+        width: 100%;
+    }
+
+    .tituloSobre h2 {
+        text-align: center;
+    }
+
+    .textoP {
+        width: 100%;
+        padding-inline: 2em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #sobre {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
