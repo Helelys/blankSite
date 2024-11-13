@@ -67,6 +67,8 @@ header {
     transition: .3s;
     overflow: hidden;
     backdrop-filter: blur(15px);
+
+    z-index: 0;
 }
 
 .dropdown_menu.open {
