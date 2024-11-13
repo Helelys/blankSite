@@ -24,15 +24,6 @@ export class HeaderBarComponent implements OnInit {
           : 'fa-solid fa-bars';
       }
     });
-
-    const acordeon = document.querySelectorAll('.acordeon');
-
-    acordeon.forEach((acordeon) => {
-      acordeon.addEventListener('click', () => {
-        const body = acordeon.querySelector('.acordeon-body');
-        body?.classList.toggle('active');
-      });
-    });
   }
 
   @Input()
