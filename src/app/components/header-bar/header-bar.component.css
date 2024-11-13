@@ -34,7 +34,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .navbar .links, .navbar .links2 {
@@ -58,7 +57,7 @@ header {
 .dropdown_menu {
     position: absolute;
     right: 2rem;
-    top: 140px;
+    top: 100px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.774);
     display: none;
